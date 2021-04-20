@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Furniture</title>
+  </head>
+  <body>
+    <!--  navbar  -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <img src="images/bars-solid.svg" style="width: 20px" alt="" />
+        </span>
+
+        <img src="images/logo.svg" alt="logo" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <img src="images/cart-plus.svg" style="width: 30px" alt="" />
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar  -->
+    <main class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Furniture Collection</h1>
+        <button class="banner-btn">shop now</button>
+      </div>
+    </main>
+    <!-- end of navbar  -->
+    <!--  start products -->
+    <section class="products">
+      <div class="section-title">
+        <h2>our products</h2>
+      </div>
+      <figure class="products-center">
+        <div class="product">
+          <div class="img-container">
+            <img class="product-img" src="images/product-1.jpeg" alt="" />
+            <button  class="bag-btn" data-id="1">
+              <img  class="shopping-cart"
+                src="images/shopping-cart.svg"
+                style="width: 20px;"
+                alt=""
+              />add to Cart
+            </button>
+          </div>
+
+          <h3>queen bed</h3>
+          <h4>$1550</h4>
+        </div>
+        <div class="product">
+          <div class="img-container">
+            
+
+         
+        </div>
+      </figure>
+    </section>
+    <!--  end products-->
+    <!-- start cart-->
+    <aside class="cart-overlay">
+        <div class="cart">
+           <span class="close-cart">
+           <img src="images/window-close.svg" style=" width: 28px" alt="">
+           </span>
+           <h2>your cart</h2>
+           <div class="cart-content">
+               <!-- cart item -->
+                   <div class="cart-item">
+                     <!-- <img src="images/product-1.jpeg"  alt="">
+                       <div>
+                           <h4>queen bad</h4>
+                           <h5>&5.000</h5>
+                           <span class="remove-item">remove</span>
+                       </div>
+                       <div>
+                           <img class="up" src="images/chevron-up.svg" style="width: 20px" alt="">
+                           <p class="item-amount">1</p>
+                           <img  class="down" src="images/chevron-down.svg" style="width: 20px" alt="">
+                       </div> --->
+                   </div>
+               <!-- end cart item-->
+           </div>
+           <div class="cart-footer">
+               <h3>your total : & <span class="cart-total">0</span></h3>
+               <button class="clear-cart banner-btn">clear cart</button>
+
+           </div>
+        </div>
+
+    </aside>
+     <script src="products.json"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
